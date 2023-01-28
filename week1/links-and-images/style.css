@@ -1,0 +1,21 @@
+.headings-div {
+  height: 200px;
+  width: 200px;
+  background-color: lightblue;
+}
+
+h1 {
+  color: yellow;
+}
+
+h2 {
+  color: #fafafa;
+}
+
+h3 {
+  color: rgb(124, 79, 212);
+}
+
+h4 {
+  color: hsl(77, 100%, 40%);
+}
