@@ -4,7 +4,13 @@
   background-color: lightblue;
 }
 
-h1 {
+body {
+  background-color: pink;
+  color: rgb(100, 16, 89);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+div > h1 {
   color: yellow;
 }
 
