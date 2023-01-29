@@ -17,8 +17,11 @@
 
 body {
   /* width: 100vw; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 100vh;
-  min-height: 100vh;
+  width: 100vw;
   font-family: Roboto-Black;
   line-height: 1.5;
 }
@@ -26,25 +29,32 @@ body {
 header {
   background-color: var(--dark);
   height: 30vh;
-  width: 100vw;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 
 .header-top {
+  width: 60vw;
   background-color: grey;
-  width: 80vw;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .header-logo {
   /* background-color: pink; */
   font-size: 24px;
   color: #f9faf8;
+}
+
+.header-rightside {
+  /* background-color: green; */
+  width: 30vw;
+  color: white;
+  display: flex;
+  align-items: space-around;
+  justify-content: space-around;
 }
 
 .header-rightside ul {
@@ -59,8 +69,12 @@ header {
 }
 
 .header-middle {
+  /* background-color: pink; */
+  margin-top: 50px;
   color: white;
-  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .header-middle-left > h1 {
@@ -88,7 +102,49 @@ header {
 }
 
 .header-middle-right > div {
+  background-color: grey;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.header-middle-right > p {
+.header-middle-right > div > p {
+}
+
+.top {
+  height: 25vh;
+  width: 80vw;
+  background-color: var(--quote);
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-title {
+}
+
+.top-grid {
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+}
+
+.top-grid-cell {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-grid-cell > div {
+  height: 100px;
+  weight: 100px;
+  background-color: blue;
+  border-radius: 15px;
+}
+
+.middle {
+  height: 20vh;
 }
