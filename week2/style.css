@@ -28,6 +28,8 @@ body {
 
 header {
   background-color: var(--dark);
+  width: 60vw;
+
   height: 30vh;
   display: flex;
   flex-direction: column;
@@ -35,7 +37,6 @@ header {
 }
 
 .header-top {
-  width: 60vw;
   background-color: grey;
   display: flex;
   flex-direction: row;
@@ -114,7 +115,7 @@ header {
 
 .top {
   height: 25vh;
-  width: 80vw;
+  width: 60vw;
   background-color: var(--quote);
   font-size: 36px;
   font-style: italic;
